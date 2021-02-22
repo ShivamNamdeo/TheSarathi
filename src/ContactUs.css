@@ -1,0 +1,183 @@
+.contact{
+	background-color: white;
+}
+
+.heading{
+	padding: 30px;
+	background-image: url("https://www.ottomate.com/media/wysiwyg/shutterstock_311546150_1.jpg");
+}
+
+.heading>h1{
+	font-size: 24px;
+	font-weight: 200;
+	padding: 20px;
+
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 15px 1px #f0f3f5;
+}
+
+.form > h1{
+	font-size: 24px;
+	font-weight: 200;
+	margin-bottom: 20px;
+}
+
+.input_text{
+	border-width: 0px;
+	outline-width: 0px;
+	background-color: #f0f3f5;
+	padding: 24px;
+	margin-bottom: 20px;
+	border-left: 2px solid #2e81f5;	
+
+}
+
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+
+}
+.contact_data{
+	margin-top: 20px;	
+	padding: 20px;
+}
+
+.contact_heading{
+	color: #444;
+	font-weight: 250;
+	font-size: 24px;
+}
+
+.sarathi_social{
+	color: #2e81f5;
+	font-weight: 250;
+	font-size: 24px;
+}
+
+
+
+.subhead{
+	color: #444;
+	font-weight: 200;
+	margin-bottom: 20px;
+	font-size: 2vmax;
+	max-height: 500px;
+
+}
+
+.contact_data>a>.MuiSvgIcon-root{
+	color:#2e81f5;
+	font-size: 2rem;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 10px;
+	align-self: center;
+	border-color: #555;
+	border-width: 5px;
+	cursor: pointer;
+	box-shadow: 10px 10px 15px 1px #ccc;
+	transition: 0.5s ease-out;
+
+}
+
+.contact_data>a>.MuiSvgIcon-root:hover{
+	color:#fff;
+	font-size: 2rem;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #2e81f5;
+	margin: 10px;
+	align-self: center;
+	cursor: pointer;
+	box-shadow: 5px 5px 5px -7px #2e81f5;
+
+}
+
+.row_align{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.button_flex{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.button{
+	outline: none;
+	background-color: #fff;
+	outline-width: 0px;
+	cursor: pointer;
+	padding: 16px;
+	box-shadow: 5px 5px 5px -7px #2e81f5;
+	margin:10px;
+	color:#2e81f5;
+	font-size: 16px;
+	font-weight: 300;
+	transition: 0.5s ease-out;
+
+}
+
+.button_active{
+	outline: none;
+	background-color: #fff;
+	border-bottom:2px solid #2e81f5; 
+	outline-width: 0px;
+	cursor: pointer;
+	padding: 16px;
+	box-shadow: 5px 5px 5px -7px #2e81f5;
+	margin:10px;
+	color:#2e81f5;
+	font-size: 16px;
+	font-weight: 300;
+	transition: 0.5s ease-out;
+
+}
+
+
+.button:hover{
+	outline: none;
+	background-color: #2e81f5;
+	outline-width: 0px;
+	cursor: pointer;
+	margin:10px;
+	color:#fff;
+
+	
+}
+
+.submit_button{
+	align-self: center;
+	outline: none;
+	background-color: #2e81f5;
+	outline-width: 0px;
+	border-width: 0px;
+	border:2px solid #2e81f5;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 16px;
+	margin:10px;
+	color:#fff;
+	font-size: 16px;
+	font-weight: 300;
+	width: 100%;
+}
+
+.submit_button:hover{
+	background-color: #fff;
+	border:2px solid #2e81f5;
+	border-radius: 10px;
+	color:#2e81f5;
+}

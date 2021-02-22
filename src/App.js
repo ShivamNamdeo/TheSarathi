@@ -1,24 +1,54 @@
-import logo from './logo.svg';
 import './App.css';
+import Body from "./Body";
+import Header from "./Header";
+import AppViewPage from "./AppViewPage";
+import ContactUs from "./ContactUs";
+import AboutUs from "./AboutUs";
+import JoinTeam from "./JoinTeam";
+import Post from "./post";
+
+import { Notifications } from 'react-push-notification';
+
+
+
+
+
+import {BrowserRouter as Router ,Switch,Route} from "react-router-dom";
 
 function App() {
+
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+  	<Router>
+    <div className="app_main">
+    	<Notifications />
+    	<Header/>
+    	<Switch>
+    	
+      		
+      		<Route path= "/" exact component={Body} />
+      		<Route path= "/AppViewPage" component ={AppViewPage}/>
+          <Route path= "/ContactUs" component ={ContactUs}/>
+          <Route path= "/ContactUs" component ={ContactUs}/>
+          <Route path= "/AboutUs" component ={AboutUs}/>
+          <Route path= "/JoinTeam" component ={JoinTeam}/>
+          <Route path= "/Post" exact component ={Post}/>
+
+
+          <Route path= "/Post/:id" component ={Post}/>
+
+          
+
+     	</Switch>
+
+
     </div>
+
+    </Router>
   );
 }
 

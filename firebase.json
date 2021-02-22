@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build",
+    "appAssociation": "AUTO",
+	"rewrites": [ { "source": "/Post/**", "dynamicLinks": true } ],
+    "ignore": [
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+
+

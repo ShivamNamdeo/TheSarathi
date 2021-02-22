@@ -1,0 +1,51 @@
+.main_switch{
+	background-color: white;
+	
+}
+
+.switch{
+	background-color: white;
+	padding-bottom: 20px;
+
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+}
+
+li{
+	list-style: none;
+	padding: 20px 20px 0px 0px;
+	margin-right: 10px;
+}
+
+li{
+	list-style: none;
+	padding: 20px 20px 0px 0px;
+	margin-right: 10px;
+}
+
+li >a{
+	text-decoration: none;
+	color:#555;
+	font-size:14px;
+	font-weight: 300;
+			font-family: 'Poppins', sans-serif;
+
+}
+
+li >a:hover{
+	text-decoration: none;
+	color:#2e81f5;
+	font-size:14px;
+			font-family: 'Poppins', sans-serif;
+
+}
+
+li >a:active{
+	text-decoration: none;
+	color:#2e81f5;
+	font-size:14px;
+
+}

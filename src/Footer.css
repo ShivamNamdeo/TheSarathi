@@ -1,0 +1,48 @@
+.footer_heading{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.footer{
+	text-align: center;
+	background-color: #ccc;
+	padding: 20px;
+	position: relative;
+  	bottom: 0px;
+
+	
+}
+
+.footer_heading >.MuiSvgIcon-root{
+	color:#000;
+	font-size: 18px;
+}
+
+.footer_heading >h1{
+	font-size: 18px;
+	font-weight: 250;
+	color:#555;
+	margin:0px 15px 10px 16px;
+
+
+}
+
+.social_links >a>.MuiSvgIcon-root{
+	color: #2e81f5;
+	padding: 5px;
+	font-size: 16px;
+	background-color: #fff;
+	margin:5px;
+	border-radius: 4px;
+	transition: 0.5s ease-out;
+	cursor: pointer;
+	box-shadow: 1px 1px 1px 0px #ccc;
+}
+
+.social_links >a>.MuiSvgIcon-root:hover{
+	color: #fff;
+	background-color: #2e81f5;
+	
+}
