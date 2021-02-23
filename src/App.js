@@ -36,10 +36,11 @@ function App() {
           <Route path= "/ContactUs" component ={ContactUs}/>
           <Route path= "/AboutUs" component ={AboutUs}/>
           <Route path= "/JoinTeam" component ={JoinTeam}/>
-          <Route path= "/Post" exact component ={Post}/>
-
-
           <Route path= "/Post/:id" component ={Post}/>
+          <Route path= "/Post"  component ={Post}/>
+
+
+          
 
           
 
